@@ -11,5 +11,7 @@ This repository is designed to provide a structured learning path for Python ent
 ## What's Included
 
 Python Courses: Access a series of well-structured Python courses that cover the fundamentals and advanced topics. These courses are designed to help you build a strong foundation in Python programming.
+
 2D Games: Dive into the world of game development by creating your own 2D games. Our projects will guide you through the process, helping you understand game mechanics and Python's role in game development.
+
 Desktop Applications: Learn how to build practical desktop applications using Python. Develop your skills in creating software that can solve real-world problems.
