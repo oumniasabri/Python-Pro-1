@@ -10,8 +10,10 @@ clock = pygame.time.Clock()
 '''Rectangle class'''
 class Area():
   def __init__(self, x=0, y=0, width=10, height=10, color=None):
-      self.rect = pygame.Rect(x, y, width, height) 
-      self.fill_color = color
+    self.rect = pygame.Rect(x, y, width, height) 
+    self.fill_color = color
+  def color(self, new_color):
+    self.fill_color = new_color
 
 
 pygame.display.update()
