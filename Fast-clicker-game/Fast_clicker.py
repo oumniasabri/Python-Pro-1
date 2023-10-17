@@ -16,6 +16,8 @@ class Area():
     self.fill_color = new_color
   def fill(self):
       pygame.draw.rect(mw, self.fill_color, self.rect)
-
+  def outline(self, frame_color, thickness):  #outline of an existing rectangle
+    pygame.draw.rect(mw, frame_color, self.rect, thickness) 
+    
 pygame.display.update()
 clock.tick(40)
